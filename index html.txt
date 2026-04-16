@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NK Study App</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: blue;
+        }
+        button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📚 NK Study App</h1>
+    <p>Welcome Nitesh 👋</p>
+
+    <button onclick="openPDF()">Open NCERT PDF</button>
+
+    <script>
+        function openPDF() {
+            window.open("https://ncert.nic.in/textbook.php");
+        }
+    </script>
+
+</body>
+</html>
